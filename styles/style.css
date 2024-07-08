@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.body{
+    font-family: "Lato", sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* banner style */
+.banner{
+    max-width: 1620px;
+    min-height: 800px;
+    padding: 40px;
+    background: rgba(229, 84, 115, 0.1); 
+    
+    display: flex;   
+}
+.banner-1{
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+    /* border: 2px solid black; */
+}
+.banner-2{
+    width: 600px;
+    height: 800px;
+    /* border: 2px solid black;  */
+}
+.banner-1 h1{
+    color: rgb(39, 39, 39);
+    font-family: "Lato", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    text-align: left; 
+    margin-bottom: 20px;   
+}
+.banner-1 p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;  
+    margin-bottom:40px;  
+}
+.banner-1 button{
+    width: 177px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* feature heading */
+.feature-heading{
+    font-family: "Lato", sans-serif;
+    width: 594px;
+    height: 132px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.feature-heading h4{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(39, 39, 39); 
+    margin-bottom: 20px;  
+}
+.feature-heading p{
+    font-size: 18px;
+   font-weight: 800;
+   color: rgba(39, 39, 39, 0.6);
+}
+/* flower card */
+.flower-card{
+     max-width: 1230px;
+    min-height: 600;
+    display: flex;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    gap: 10px;
+    
+}
+.card-1{
+    width: 400px;
+    height: 600px;
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(167, 33, 98, 0.15);
+}
+.card-2{
+    width: 400px;
+    height: 600px;
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(5, 151, 160, 0.15);
+}
+.card-3{
+    width: 400px;
+    height: 600px;
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower-card div p{
+    color: rgb(39, 39, 39);
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* stiker */
+.stiker{
+    width: 1440px;
+    height: 320px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.stiker-box{
+    text-align: center;
+}
+.stiker-box p{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+
+/* hot deal */
+.hot-deal{
+  max-width: 1620px;
+  min-height: 620px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  /* border: 2px solid black; */
+}
+.text h3{
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+}
+.text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;  
+    margin-bottom:40px;
+    margin-top: 30px;  
+}
+
+.text button{
+    width: 177px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;    
+} 
+.off{
+    color: rgb(229, 84, 115); 
+}
+/* instagram card */
+.instagram-card{
+    max-width: 1440px;
+    min-height: 445px;
+    margin:0 auto ;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 20px;
+}
+/* latest deal */
+.latest-deal{
+    max-width: 1440px;
+    min-height: 445px;
+    margin:90px auto ;
+    /* border: 2px solid black;  */
+    background-image: url('../images/Rectangle\ 9.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals{
+    width: 866px;
+    height: 206px;
+    /* border: 2px solid black; */
+    text-align: center; 
+}
+.deals h3{
+    color: rgb(39, 39, 39);
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;    
+}
+
+.deals button{
+    width: 120px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 800; 
+       
+}
+
+.deal{
+    width: 800px;
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.deal input{
+    display: inline-block;
+    width: 600px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+/* footer */
+.footer{
+    max-width: 100%;
+    height: 500px;
+    background: rgb(17, 16, 16); 
+    text-align: center;
+    padding-top: 120px;
+
+}
+.footer h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-span{
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(229, 84, 115);    
+}
+.footer p{
+    color: rgba(255,255,255,0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#small{
+    color: rgba(255, 255, 255, 0.4);
+    
+    font-size: 16px;
+    font-weight: 400;    
+}
